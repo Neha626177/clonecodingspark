@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/clonecodingspark/static/css/main.a7e8630c.css",
+    "main.js": "/clonecodingspark/static/js/main.23d47361.js",
+    "static/media/blog1.png": "/clonecodingspark/static/media/blog1.64323cf91fe9c0963650.png",
+    "static/media/sohit-img.png": "/clonecodingspark/static/media/sohit-img.f46fd4b496249403d11e.png",
+    "static/media/aum-img.png": "/clonecodingspark/static/media/aum-img.a94652a902eefb47a593.png",
+    "static/media/discount-bg.png": "/clonecodingspark/static/media/discount-bg.3ae41c1fcacc8b247b9a.png",
+    "static/media/team-2.jpg": "/clonecodingspark/static/media/team-2.2ccf2add63d9423eb868.jpg",
+    "static/media/amit-img.png": "/clonecodingspark/static/media/amit-img.9529c8c2f4f731148e86.png",
+    "static/media/landingPage.png": "/clonecodingspark/static/media/landingPage.e8bc370c72cd0b15eace.png",
+    "static/media/about.png": "/clonecodingspark/static/media/about.2110e4b11351975a2752.png",
+    "static/media/footer-bg.png": "/clonecodingspark/static/media/footer-bg.e6fe4753dfca2b6cc785.png",
+    "static/media/c++.png": "/clonecodingspark/static/media/c++.f0f1f4c94ed4db2d52fb.png",
+    "static/media/logo.png": "/clonecodingspark/static/media/logo.3708f16473a7a6c2fb2b.png",
+    "index.html": "/clonecodingspark/index.html",
+    "main.a7e8630c.css.map": "/clonecodingspark/static/css/main.a7e8630c.css.map",
+    "main.23d47361.js.map": "/clonecodingspark/static/js/main.23d47361.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7e8630c.css",
+    "static/js/main.23d47361.js"
+  ]
+}
