@@ -9,7 +9,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 const footer = () => {
   return (
     <>
-      <div className="w-full h-[400px] justify-center items-center foot mt-20 ">
+      <div className="w-full h-[400px] justify-center items-center foot  ">
         <div className="w-full h-[350px] con flex flex-col justify-center items-center gap-4">
           <h1 className="text-6xl font-bold text-[#16C6FE] ">Coding Spark </h1>
           <p className="text-white text-xl">

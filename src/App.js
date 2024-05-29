@@ -1,28 +1,19 @@
 import "./App.css";
-import HeroSection from "./components/HeroSection";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
-import EventCards from "./components/EventCards";
-import Discunt from "./components/Discunt";
-import Service from "./components/Service";
-import Reviews from "./components/Reviews";
-import Team from "./components/Team";
-import Blog from "./components/Blog";
 import Footer from "./components/Footer";
+import BlogPage from "./pages/BlogPage";
 
 function App() {
   return (
     <>
       <div className="  overflow-hidden">
         <Navbar />
-        <HeroSection />
-        <About />
-        <EventCards />
-        <Discunt />
-        <Service />
-        <Reviews />
-        <Team />
-        <Blog />
+        <Routes>
+          <Route path="/" Component={HomePage} />
+          <Route path="/blog" Component={BlogPage}/>
+        </Routes>
         <Footer />
       </div>
     </>

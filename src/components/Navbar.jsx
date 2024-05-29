@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../assets/logo.png";
+import { NavLink } from "react-router-dom";
 
 const navbar = () => {
   return (
@@ -11,7 +12,7 @@ const navbar = () => {
         <div className="w-1/2">
           <ul className="flex flex-row justify-end ">
             <li className="px-2 py-1 hover:bg-[#fc7e50] cursor-pointer">
-              Home
+              <NavLink to="/">Home</NavLink>
             </li>
             <li className="px-2 py-1 hover:bg-[#fc7e50] cursor-pointer">
               About
@@ -25,7 +26,7 @@ const navbar = () => {
             <li className="px-2 py-1 hover:bg-[#fc7e50] cursor-pointer">
               Team
             </li>
-        
+
             <li className="px-2 py-1 hover:bg-[#fc7e50] cursor-pointer">
               Contact
             </li>

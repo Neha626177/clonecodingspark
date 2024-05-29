@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import blogimg from "../assets/blog1.png";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+import { NavLink } from "react-router-dom";
 
 const BlogCard = () => {
   //  const [title,setTitle] = useState('');
@@ -11,7 +12,7 @@ const BlogCard = () => {
   //     let response = await fetch(api);
   //     console.log(response);
   //     let data = await response.json();
-  //     // setTitle(data.title);
+  //     setTitle(data.text);
   //     console.log(data);
   //     // console.log(title);
   //   } catch {
@@ -19,7 +20,7 @@ const BlogCard = () => {
   //   }
   // };
 
-  // getTitle();
+  // // getTitle();
   // useEffect(()=>{
   //   getTitle();
   // },[])
@@ -38,19 +39,17 @@ const BlogCard = () => {
           <p>5</p>
         </div>
         <p className="pl-6 text-[#7e7e81] hover:text-red">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-          aliquid omnis perspiciatis officiis distinctio, consectetur doloribus
-          consequatur earum cupiditate dignissimos.
+      lorem 
         </p>
-        <a
+        <NavLink to = '/blog'
           className=" font-bold pl-6 my-2 text-[#343148] hover:text-[#F7CAC9] "
-          href="#"
+          
         >
           Read More{" "}
           <span>
             <ArrowForwardIosIcon className="text-[px]" />
           </span>
-        </a>
+        </NavLink>
       </div>
     </div>
   );

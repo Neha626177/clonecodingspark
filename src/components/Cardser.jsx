@@ -1,13 +1,11 @@
 import React from "react";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import useEffect  from "react";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 // import './service.css'
 
 const Cardser = (props) => {
-  useEffect(() => {
-    AOS.init({ duration: "1500" });
-  });
+  
   return (
     <>
       <div className=" w-full serCon -z-10 flex flex-col  items-center  border-[1px] gap-3 ">

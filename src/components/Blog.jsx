@@ -8,23 +8,9 @@ import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 
 const Blog = () => {
   // getTitle();
-  useEffect(() => {
-    const getTitle = async () => {
-      try {
-        const api = `https://newsapi.org/v2/everything?q=tesla&from=2024-04-22&sortBy=publishedAt&apiKey=21c6f85c45a24e07a6bf8d4005da03e0`;
-        let response = await fetch(api);
-        console.log(response);
-        let data = await response.json();
-        // setTitle(data.title);
-        //  console.log(data);
-        console.log(data.articles[20].urlToImage);
-        // console.log(title);
-      } catch {
-        console.log("Error found");
-      }
-    };
-    getTitle();
-  }, []);
+
+  
+
 
   useEffect(() => {
     AOS.init({ duration: "1500" });
@@ -48,9 +34,9 @@ const Blog = () => {
         <BlogCard />
         <BlogCard />
       </div>
-      <div className="w-full flex flex-row justify-center mt-10 gap-4">
+      <div className="w-full flex flex-row justify-center mt-10 mb-20 gap-4">
         <div className="w-[70px] h-[50px] bg-[#343148] cursor-pointer transition duration-500 hover:bg-[#F7CAC9] flex justify-center items-center text-[#F7CAC9] hover:text-[#343148]">
-          <ArrowBackIosIcon />
+           <ArrowBackIosIcon />
         </div>
         <div className="w-[70px] h-[50px] bg-[#343148] cursor-pointer transition duration-500 hover:bg-[#F7CAC9] flex justify-center items-center text-[#F7CAC9] hover:text-[#343148]">
           <ArrowForwardIosIcon />
