@@ -14,7 +14,7 @@ const BlogPage = () => {
     const [publishedAt ,setPublishedAt] = useState();
     
 
-    let ranNum = Math.floor(Math.random() * 10);
+    // let ranNum = Math.floor(Math.random() * 10);
     // console.log(ranNum);
     useEffect(() => {
       const getTitle = async () => {
@@ -24,12 +24,12 @@ const BlogPage = () => {
           console.log(response);
           let data = await response.json();
           console.log(data);
-          setTitle(data.articles[ranNum].title);
-          setImgurl(data.articles[ranNum].urlToImage);
-          setAuthor(data.articles[ranNum].author);
-          setDisc(data.articles[ranNum].description);
-          setContent(data.articles[ranNum].content);
-          setPublishedAt(data.articles[ranNum].publishedAt);
+          setTitle(data.articles[0].title);
+          setImgurl(data.articles[0].urlToImage);
+          setAuthor(data.articles[0].author);
+          setDisc(data.articles[0].description);
+          setContent(data.articles[0].content);
+          setPublishedAt(data.articles[0].publishedAt);
           // console.log(data.articles[0].title);
         } catch {
           console.log("Error is found");

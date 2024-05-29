@@ -1,7 +1,5 @@
 import React from "react";
-import CppImg from "../assets/c++.png";
 import CardEve from "./CardEve";
-
 const EventCards = () => {
   return (
     <>

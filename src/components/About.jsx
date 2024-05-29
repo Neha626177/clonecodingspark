@@ -24,7 +24,7 @@ const about = () => {
               Our online learning platform offers courses that help students
               become good software developers, allowing them to get a head
               start. We strive to engage more students with technology and
-              upskill them.
+              upskill them. 
             </p>
             <p className="text-[1rem] text-[#7e7e81]">
               As a community with over 500 members, we help one another grow and

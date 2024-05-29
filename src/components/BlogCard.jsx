@@ -1,29 +1,10 @@
-import React, { useEffect, useState } from "react";
+
 import blogimg from "../assets/blog1.png";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import { NavLink } from "react-router-dom";
 
 const BlogCard = () => {
-  //  const [title,setTitle] = useState('');
 
-  // const getTitle = async () => {
-  //   try {
-  //     const api = `https://newsapi.org/v2/everything?q=tesla&from=2024-04-22&sortBy=publishedAt&apiKey=21c6f85c45a24e07a6bf8d4005da03e0`;
-  //     let response = await fetch(api);
-  //     console.log(response);
-  //     let data = await response.json();
-  //     setTitle(data.text);
-  //     console.log(data);
-  //     // console.log(title);
-  //   } catch {
-  //     console.log("Error found");
-  //   }
-  // };
-
-  // // getTitle();
-  // useEffect(()=>{
-  //   getTitle();
-  // },[])
 
   return (
     <div>
@@ -39,7 +20,7 @@ const BlogCard = () => {
           <p>5</p>
         </div>
         <p className="pl-6 text-[#7e7e81] hover:text-red">
-      lorem 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, autem?
         </p>
         <NavLink to = '/blog'
           className=" font-bold pl-6 my-2 text-[#343148] hover:text-[#F7CAC9] "

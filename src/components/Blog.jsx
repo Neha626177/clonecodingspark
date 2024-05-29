@@ -1,20 +1,15 @@
 import React from "react";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import BlogCard from "./BlogCard";
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 
 const Blog = () => {
-  // getTitle();
-
-  
-
-
-  useEffect(() => {
-    AOS.init({ duration: "1500" });
-  });
+  // useEffect(() => {
+  //   AOS.init({ duration: "1500" });
+  // });
   return (
     <>
       <div className="w-full flex flex-row justify-center items-center mt-[50px]">

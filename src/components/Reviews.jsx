@@ -1,5 +1,5 @@
 import React from "react";
-import CppImg from "../assets/c++.png";
+
 
 const Reviews = () => {
   return (
