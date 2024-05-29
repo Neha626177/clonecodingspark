@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Cardser from "./Cardser";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { duration } from "@material-ui/core";
+// import { duration } from "@material-ui/core";
 
 const Service = () => {
   useEffect(() => {

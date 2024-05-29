@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/aum-img.png'
+
 import { useState , useEffect } from 'react';
 
 
